@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #00334d;
+}
+
+header {
+	padding: 60px 0;
+	background-color: red;
+}
+
+main {
+	padding: 20px 0;
+}
+
+h1, a {
+	color: #4a90e2;
+}
+
+a:hover {
+	color: green;
+}
+
+p, li {
+	color: #a9c5e6;
+	font-size: 14px;
+	line-height: 1.3rem;
+}
+
+nav {
+	padding: 10px;
+	text-align: center;
+}
+
+nav a {
+	margin: 0 5px;
+}
+
+footer {
+	width: 100%;
+	padding: 40px 0 50px;
+	float: left;
+	background-color: red;
+	text-align: center;
+}
+
+.container {
+	width: 768px;
+	margin: 0 auto;
+}
+
+.row {
+	width: 100%;
+	padding: 20px 0;
+	float: left;
+}
+
+.column {
+	width: 50%;
+	float: left;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
